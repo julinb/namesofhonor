@@ -1,0 +1,271 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red39\green129\blue201;\red255\green255\blue255;
+\red212\green20\blue102;\red20\green152\blue106;\red235\green16\blue47;\red226\green131\blue14;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c18039\c58431\c82745;\cssrgb\c100000\c100000\c100000;
+\cssrgb\c87451\c18824\c47451;\cssrgb\c0\c65098\c49020;\cssrgb\c94902\c17255\c23922;\cssrgb\c91373\c58431\c4706;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <!DOCTYPE \cf3 \strokec3 html\cf0 \strokec2 >
+\f1\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf4 \strokec4 <html \cf5 \strokec5 lang\cf4 \strokec4 =\cf6 \strokec6 "en"\cf4 \strokec4 >
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 <head>
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 <meta \cf5 \strokec5 charset\cf4 \strokec4 =\cf6 \strokec6 "UTF-8"\cf4 \strokec4 >
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 <meta \cf5 \strokec5 name\cf4 \strokec4 =\cf6 \strokec6 "viewport"\cf4 \strokec4  \cf5 \strokec5 content\cf4 \strokec4 =\cf6 \strokec6 "width=device-width, initial-scale=1.0"\cf4 \strokec4 >
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 <title>Spinning Handwritten Text</title>
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 <style>
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0body \{
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 font-family\cf4 \strokec4 : \cf6 \strokec6 'Courier New'\cf4 \strokec4 , Courier, monospace;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 overflow\cf4 \strokec4 : hidden;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 margin\cf4 \strokec4 : \cf5 \strokec5 0\cf4 \strokec4 ;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 padding\cf4 \strokec4 : \cf5 \strokec5 0\cf4 \strokec4 ;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 background-color\cf4 \strokec4 : \cf5 \strokec5 #f4f4f4\cf4 \strokec4 ;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\}
+\f1\fs24 \cf0 \strokec2 \
+\
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\cf7 \strokec7 #container\cf4 \strokec4  \{
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 position\cf4 \strokec4 : relative;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 height\cf4 \strokec4 : \cf5 \strokec5 80vh\cf4 \strokec4 ;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 display\cf4 \strokec4 : flex;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 justify-content\cf4 \strokec4 : center;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 align-items\cf4 \strokec4 : center;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 overflow\cf4 \strokec4 : hidden;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\}
+\f1\fs24 \cf0 \strokec2 \
+\
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\cf7 \strokec7 #handwritten-text\cf4 \strokec4  \{
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 position\cf4 \strokec4 : absolute;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 white-space\cf4 \strokec4 : nowrap;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 font-size\cf4 \strokec4 : \cf5 \strokec5 48px\cf4 \strokec4 ;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 color\cf4 \strokec4 : \cf5 \strokec5 #333\cf4 \strokec4 ;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 text-shadow\cf4 \strokec4 : \cf5 \strokec5 2px\cf4 \strokec4  \cf5 \strokec5 2px\cf4 \strokec4  \cf5 \strokec5 2px\cf4 \strokec4  \cf8 \strokec8 rgba\cf4 \strokec4 (\cf5 \strokec5 0\cf4 \strokec4 , \cf5 \strokec5 0\cf4 \strokec4 , \cf5 \strokec5 0\cf4 \strokec4 , \cf5 \strokec5 0.2\cf4 \strokec4 );
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 animation\cf4 \strokec4 : spin \cf5 \strokec5 10s\cf4 \strokec4  linear infinite;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\}
+\f1\fs24 \cf0 \strokec2 \
+\
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\cf3 \strokec3 @keyframes\cf4 \strokec4  spin \{
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf5 \strokec5 0%\cf4 \strokec4  \{ \cf6 \strokec6 transform\cf4 \strokec4 : \cf8 \strokec8 rotate\cf4 \strokec4 (\cf5 \strokec5 0deg\cf4 \strokec4 ); \}
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf5 \strokec5 100%\cf4 \strokec4  \{ \cf6 \strokec6 transform\cf4 \strokec4 : \cf8 \strokec8 rotate\cf4 \strokec4 (\cf5 \strokec5 360deg\cf4 \strokec4 ); \}
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\}
+\f1\fs24 \cf0 \strokec2 \
+\
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\cf7 \strokec7 #textbox\cf4 \strokec4  \{
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 position\cf4 \strokec4 : fixed;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 bottom\cf4 \strokec4 : \cf5 \strokec5 20px\cf4 \strokec4 ;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 left\cf4 \strokec4 : \cf5 \strokec5 50%\cf4 \strokec4 ;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 transform\cf4 \strokec4 : \cf8 \strokec8 translateX\cf4 \strokec4 (-\cf5 \strokec5 50%\cf4 \strokec4 );
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 padding\cf4 \strokec4 : \cf5 \strokec5 10px\cf4 \strokec4 ;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 font-size\cf4 \strokec4 : \cf5 \strokec5 18px\cf4 \strokec4 ;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 border\cf4 \strokec4 : \cf5 \strokec5 2px\cf4 \strokec4  solid \cf5 \strokec5 #ccc\cf4 \strokec4 ;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 border-radius\cf4 \strokec4 : \cf5 \strokec5 5px\cf4 \strokec4 ;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 background-color\cf4 \strokec4 : \cf5 \strokec5 #fff\cf4 \strokec4 ;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 box-shadow\cf4 \strokec4 : \cf5 \strokec5 0\cf4 \strokec4  \cf5 \strokec5 2px\cf4 \strokec4  \cf5 \strokec5 4px\cf4 \strokec4  \cf8 \strokec8 rgba\cf4 \strokec4 (\cf5 \strokec5 0\cf4 \strokec4 , \cf5 \strokec5 0\cf4 \strokec4 , \cf5 \strokec5 0\cf4 \strokec4 , \cf5 \strokec5 0.1\cf4 \strokec4 );
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\}
+\f1\fs24 \cf0 \strokec2 \
+\
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\cf7 \strokec7 #textbox\cf5 \strokec5 :focus\cf4 \strokec4  \{
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 outline\cf4 \strokec4 : none;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 border-color\cf4 \strokec4 : \cf5 \strokec5 #007bff\cf4 \strokec4 ;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf6 \strokec6 box-shadow\cf4 \strokec4 : \cf5 \strokec5 0\cf4 \strokec4  \cf5 \strokec5 0\cf4 \strokec4  \cf5 \strokec5 0\cf4 \strokec4  \cf5 \strokec5 2px\cf4 \strokec4  \cf5 \strokec5 #007bff\cf4 \strokec4 ;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\}
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 </style>
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 </head>
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 <body>
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 <div \cf5 \strokec5 id\cf4 \strokec4 =\cf6 \strokec6 "container"\cf4 \strokec4 >
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0<div \cf5 \strokec5 id\cf4 \strokec4 =\cf6 \strokec6 "handwritten-text"\cf4 \strokec4 >Your Handwritten Text Goes Here</div>
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 </div>
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 <input \cf5 \strokec5 type\cf4 \strokec4 =\cf6 \strokec6 "text"\cf4 \strokec4  \cf5 \strokec5 id\cf4 \strokec4 =\cf6 \strokec6 "textbox"\cf4 \strokec4  \cf5 \strokec5 placeholder\cf4 \strokec4 =\cf6 \strokec6 "Type here..."\cf4 \strokec4 >
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 <script>
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0// Function to handle text input
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\cf5 \strokec5 document\cf4 \strokec4 .\cf7 \strokec7 getElementById\cf4 \strokec4 (\cf6 \strokec6 'textbox'\cf4 \strokec4 ).\cf7 \strokec7 addEventListener\cf4 \strokec4 (\cf6 \strokec6 'input'\cf4 \strokec4 , \cf3 \strokec3 function\cf4 \strokec4 (event) \{
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf3 \strokec3 let\cf4 \strokec4  text = event.target.value;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf5 \strokec5 document\cf4 \strokec4 .\cf7 \strokec7 getElementById\cf4 \strokec4 (\cf6 \strokec6 'handwritten-text'\cf4 \strokec4 ).innerText = text;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\});
+\f1\fs24 \cf0 \strokec2 \
+\
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0// Autoscrolling functionality
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\cf3 \strokec3 let\cf4 \strokec4  container = \cf5 \strokec5 document\cf4 \strokec4 .\cf7 \strokec7 getElementById\cf4 \strokec4 (\cf6 \strokec6 'container'\cf4 \strokec4 );
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\cf3 \strokec3 let\cf4 \strokec4  speed = \cf5 \strokec5 1\cf4 \strokec4 ; // Adjust scroll speed
+\f1\fs24 \cf0 \strokec2 \
+\
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\cf3 \strokec3 function\cf4 \strokec4  \cf7 \strokec7 scroll\cf4 \strokec4 () \{
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0container.scrollTop += speed;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf3 \strokec3 if\cf4 \strokec4  (container.scrollTop >= container.scrollHeight - container.clientHeight) \{
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0container.scrollTop = \cf5 \strokec5 0\cf4 \strokec4 ;
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\}
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\}
+\f1\fs24 \cf0 \strokec2 \
+\
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\cf3 \strokec3 let\cf4 \strokec4  scrollInterval = \cf8 \strokec8 setInterval\cf4 \strokec4 (scroll, \cf5 \strokec5 50\cf4 \strokec4 ); // Adjust scroll speed
+\f1\fs24 \cf0 \strokec2 \
+\
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0container.\cf7 \strokec7 addEventListener\cf4 \strokec4 (\cf6 \strokec6 'mouseenter'\cf4 \strokec4 , \cf3 \strokec3 function\cf4 \strokec4 () \{
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf8 \strokec8 clearInterval\cf4 \strokec4 (scrollInterval);
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\});
+\f1\fs24 \cf0 \strokec2 \
+\
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0container.\cf7 \strokec7 addEventListener\cf4 \strokec4 (\cf6 \strokec6 'mouseleave'\cf4 \strokec4 , \cf3 \strokec3 function\cf4 \strokec4 () \{
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0scrollInterval = \cf8 \strokec8 setInterval\cf4 \strokec4 (scroll, \cf5 \strokec5 50\cf4 \strokec4 ); // Adjust scroll speed
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 \'a0\'a0\'a0\'a0\});
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 </script>
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 </body>
+\f1\fs24 \cf0 \strokec2 \
+
+\f0\fs28 \cf4 \strokec4 </html>
+\f1\fs24 \cf0 \strokec2 \
+}
